@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Christopher] - Developer',
+	title: 'Christopher - Developer',
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
 	keywords: [
@@ -33,24 +33,24 @@ export const metadata: Metadata = {
 		'Backend Development',
 		'[Christopher]',
 	],
-	authors: [{ name: '[Christopher]' }],
-	creator: '[Your Name]',
-	// openGraph: {
-	// 	title: '[Christopher] - Developer Portfolio',
-	// 	description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-	// 	url: 'http://localhost:3000',
-	// 	siteName: '[Christopher] - Portfolio',
-	// 	images: [
-	// 		{
-	// 			url: '/og-image.jpg',
-	// 			width: 1200,
-	// 			height: 630,
-	// 			alt: '[Christopher] - Developer Portfolio',
-	// 		},
-	// 	],
-	// 	locale: 'en_US',
-	// 	type: 'website',
-	// },
+	authors: [{ name: 'Christopher' }],
+	creator: 'Christopher',
+	openGraph: {
+		title: 'Christopher - Developer Portfolio',
+		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
+		url: '/portrait.jpg',
+		siteName: 'Christopher - Portfolio',
+		images: [
+			{
+				url: '/images/perfil.jpg',
+				width: 1200,
+				height: 630,
+				alt: 'Christopher - Developer Portfolio',
+			},
+		],
+		locale: 'en_US',
+		type: 'website',
+	},
 	robots: {
 		index: true,
 		follow: true,

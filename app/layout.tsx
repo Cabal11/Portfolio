@@ -35,29 +35,22 @@ export const metadata: Metadata = {
 	],
 	authors: [{ name: '[Christopher]' }],
 	creator: '[Your Name]',
-	openGraph: {
-		title: '[Christopher] - Developer Portfolio',
-		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
-		siteName: '[Christopher] - Portfolio',
-		images: [
-			{
-				url: '/og-image.jpg',
-				width: 1200,
-				height: 630,
-				alt: '[Christopher] - Developer Portfolio',
-			},
-		],
-		locale: 'en_US',
-		type: 'website',
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: '[Christopher] - Developer',
-		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		creator: '@yourusername',
-		images: ['/og-image.jpg'],
-	},
+	// openGraph: {
+	// 	title: '[Christopher] - Developer Portfolio',
+	// 	description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
+	// 	url: 'http://localhost:3000',
+	// 	siteName: '[Christopher] - Portfolio',
+	// 	images: [
+	// 		{
+	// 			url: '/og-image.jpg',
+	// 			width: 1200,
+	// 			height: 630,
+	// 			alt: '[Christopher] - Developer Portfolio',
+	// 		},
+	// 	],
+	// 	locale: 'en_US',
+	// 	type: 'website',
+	// },
 	robots: {
 		index: true,
 		follow: true,

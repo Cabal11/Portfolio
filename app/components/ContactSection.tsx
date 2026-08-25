@@ -37,7 +37,7 @@ export default function ContactSection() {
 							Ponte en contacto
 						</a>
 						<a
-							href="/docs/cv.pdf" download={"Christopher-CV"}
+							href="/docs/new_cv.pdf" download={"Christopher-CV"}
 							target="_blank"
 							className="px-6 py-2 border border-gray-600 text-gray-300 font-medium rounded hover:bg-gray-800 transition-colors inline-flex items-center justify-center gap-2"
 						>

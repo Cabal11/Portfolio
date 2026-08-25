@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaYoutube } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -8,7 +9,7 @@ export default function ProjectsSection() {
           Proyectos
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
-			{/* Proyecto 1 */}
+          {/* Proyecto 1 */}
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <div className="aspect-video bg-gray-700 relative">
               <Image
@@ -32,16 +33,29 @@ export default function ProjectsSection() {
               </p>
               <div className="flex gap-2">
                 <a
-                  href="https://github.com/Cabal11/colegio-app.git" target="_blank" rel="noopener noreferrer"
+                  href="https://github.com/Cabal11/colegio-app.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
                 >
                   Ver proyecto frontend →
                 </a>
-				  <a
-                  href="https://github.com/Cabal11/backend-nodejs.git" target="_blank" rel="noopener noreferrer"
+                <a
+                  href="https://github.com/Cabal11/backend-nodejs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
                 >
                   Ver proyecto backend →
+                </a>
+                <a
+                  href="https://youtu.be/c5q96sbK7W0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
+                >
+                  <FaYoutube className="inline mr-2" />
+                  Video de YouTube
                 </a>
               </div>
             </div>

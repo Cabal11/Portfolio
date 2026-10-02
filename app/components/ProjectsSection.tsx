@@ -82,7 +82,6 @@ export default function ProjectsSection() {
                 Next.js en el frontend y Node.js/Express.js en el backend,
                 utilizando Zod para validaciones y una API REST para la
                 comunicación entre cliente y servidor.
-
                 <strong> Actualmente en desarrollo.</strong>
               </p>
               <div className="flex gap-2">
@@ -101,6 +100,14 @@ export default function ProjectsSection() {
                   className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
                 >
                   Ver github →
+                </a>
+                <a
+                  href="https://gestor-recibos.onrender.com/docs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
+                >
+                  Ver API Docs →
                 </a>
               </div>
             </div>

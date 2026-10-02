@@ -60,6 +60,51 @@ export default function ProjectsSection() {
               </div>
             </div>
           </div>
+
+          {/* Proyecto 2 */}
+          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <div className="aspect-video bg-gray-700 relative">
+              <Image
+                src={`/images/registro.png`}
+                alt={`Registro contratos`}
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-4 sm:p-6">
+              <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
+                Sistema de gestión de pagos y servicios
+              </h3>
+              <p className="text-sm sm:text-base text-gray-300 mb-4">
+                Aplicación web full-stack para gestionar pagos, contratos y
+                servicios, incluyendo historial de transacciones, edición y
+                eliminación de registros. Construida como un monorepo con
+                Next.js en el frontend y Node.js/Express.js en el backend,
+                utilizando Zod para validaciones y una API REST para la
+                comunicación entre cliente y servidor.
+
+                <strong> Actualmente en desarrollo.</strong>
+              </p>
+              <div className="flex gap-2">
+                <a
+                  href="https://pagosmensualesgestor.netlify.app/dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
+                >
+                  Ver Live Demo →
+                </a>
+                <a
+                  href="https://github.com/Cabal11/gestor-recibos.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base"
+                >
+                  Ver github →
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
